@@ -1,7 +1,8 @@
 Pinteresting::Application.routes.draw do
   root "pages#home"
-  get "about" => "pages#about" # creates abouy_path
-  
+  get "about" => "pages#about" # creates about_path
+  get "anthonyomair" => "pages#AnthonyOmair" # creates Anthony and Omair path
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
